@@ -10,7 +10,7 @@ const GoalForm = ({onGoalHandler}) => {
     const submitHandler =(e)=>{
       e.preventDefault();
       onGoalHandler(formData);
-    //  setAllGoals((prev)=>);
+    setFormData({goal:"",by:""});
     }
   
     return (
