@@ -14,8 +14,8 @@ const App = () => {
   return (
     <div id="main">
       <GoalForm  onGoalHandler={goalHandler}/>
-      {allGoals.map((goal,idx) => <ListOfGoals key={goal.idx} mygoal={goal.goal} bygoal={goal.by}/>)}
-      {/* <ListOfGoals /> */}
+      {/* {allGoals.map((goal,idx) => <ListOfGoals key={goal.idx} mygoal={goal.goal} bygoal={goal.by}/>)} */}
+      <ListOfGoals goals={allGoals}/>
     </div>
   )
   
