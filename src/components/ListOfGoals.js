@@ -1,10 +1,10 @@
 import React from "react";
 
-const ListOfGoals = () => {
+const ListOfGoals = ({mygoal,bygoal}) => {
     return (
       <ul>
         <li>
-            <p>My goal is to goalName, by goalDeadline.</p>
+            <p>My goal is to {mygoal}, by {bygoal}.</p>
           </li>
       </ul>
     );
